@@ -7,12 +7,12 @@ function produceDrivingRange(blockRange) {
 
     if (range > 0){
       return `within range by ${range}`
-    }else{
+    }
+    else{
       return `${Math.abs(range)} blocks out of range`
     }
   }
 }
-
 
 function produceTipCalculator(calcul) {
   return producetip => {
