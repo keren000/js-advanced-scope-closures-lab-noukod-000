@@ -2,8 +2,8 @@ function produceDrivingRange(blockRange) {
   return function(startBlock, endBlock){
     let start = parseInt(startBlock);
     let end = parseInt(endBlock);
-    let range = Math.abs(startBlock - endBlock);
-      let distance = Math.abs(blockRange - range)
+    let distance = Math.abs(end-start);
+    let range = blockRange - distance;
 
     if (range > 0){
       return `within range by ${range}`
