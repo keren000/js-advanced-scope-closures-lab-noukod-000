@@ -5,8 +5,8 @@ function produceDrivingRange(blockRange) {
 
 
     const diffRange = Math.abs(blockRange - range)
-    let distance = Math.abs(end-start);
-    let range = blockRange - distance;
+    // let distance = Math.abs(end-start);
+    // let range = blockRange - distance;
 
     if (range > 0){
       return `within range by ${range}`
